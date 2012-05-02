@@ -1,0 +1,8 @@
+auto coding README
+
+example:
+* printf
+	1. source: stdio.h
+	2. return type: int
+	3. parameters: (const char *), ...
+
