@@ -1,0 +1,72 @@
+# -*- org -*-
+
+# Time-stamp: <2012-05-06 12:21:20 Sunday by liunx>
+
+#+OPTIONS: ^:nil author:nil timestamp:nil creator:nil
+
+* auto-coding design document
+** keywords & attributes
+# comments related keywords
+*** "/*"
+    - atrributes
+      + require "*/"
+*** "*/"
+    - attributes
+      + require "/*"
+*** "//"
+    - attributes
+      + require none
+# preprocess keywords  
+*** "#define"
+    - attributes
+      + require none
+*** "#undef"
+    - attributes
+      + require none
+*** "#ifdef"
+*** "#ifndef"
+*** "#else"
+*** "#endif"
+*** "#defined"
+*** "#include"
+*** "#if"
+*** "#elif"
+*** "defined"
+*** "#line"
+*** "#"
+*** "##"
+*** "#pragma"
+*** "#warning"
+*** "#error"    
+
+# c program key words
+*** auto
+*** short
+*** int
+*** long
+*** float
+*** double
+*** char
+*** struct
+*** union
+*** enum
+*** typedef
+*** const
+*** unsigned
+*** extern
+*** register
+*** static
+*** volatile
+*** void
+*** if
+*** else
+*** switch
+*** for
+*** do
+*** while
+*** goto
+*** continue
+*** break
+*** default
+*** sizeof
+*** return    
